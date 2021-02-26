@@ -1,5 +1,5 @@
 // vue.config.js
 module.exports = {
-  publicPath:'/tree/master/fabric-zh/dist',
+  publicPath:'/Fabric-Reference-Chinese/fabric-zh/dist',
   assetsDir:'./'
 }
