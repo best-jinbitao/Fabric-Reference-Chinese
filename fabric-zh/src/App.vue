@@ -1,17 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div
+      style="width:100%;height:39px;position:fixed;top:0;text-align:left;font-size:30px;padding:10px;border-bottom:1px solid #E4E7ED">
+      Fabricjs中文文档
+    </div>
+    <el-container>
+      <el-aside width="200px">
+        <Menu style="position:fixed;" />
+      </el-aside>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
+    </el-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Menu from './components/menu.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Menu
   }
 }
 </script>
