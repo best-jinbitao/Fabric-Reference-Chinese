@@ -6,7 +6,7 @@
     </div>
     <el-container>
       <el-aside width="200px">
-        <Menu style="position:fixed;" />
+        <Menu style="position:fixed; height:100vh; overflow: auto;" />
       </el-aside>
       <el-main>
         <router-view></router-view>
