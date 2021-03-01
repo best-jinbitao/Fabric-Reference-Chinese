@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div
-      style="width:100%;height:39px;position:fixed;top:0;text-align:left;font-size:30px;padding:10px;border-bottom:1px solid #E4E7ED">
+      style="z-index:1200;background:rgb(248, 244, 239);width:100%;height:39px;position:fixed;top:0;text-align:left;font-size:30px;padding:10px;border-bottom:1px solid #E4E7ED">
       Fabricjs中文文档
     </div>
     <el-container>
@@ -35,5 +35,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+p {
+  text-indent: 40px;
+  text-align: justify;
+}
+div {
+  text-align: left;
 }
 </style>
